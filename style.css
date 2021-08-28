@@ -1,0 +1,148 @@
+:root {
+  --main-color: #edf6ff;
+}
+
+@media screen and (max-width: 600px) {
+  .heading-container,
+  .heading-container2,
+  .heading-container3 {
+    margin-top: 10px !important ;
+    padding-top: 0 !important;
+  }
+  .battery6g {
+    width: 200px;
+  }
+  /* .dual-ic , .full-cell , .one-by-one {
+        justify-content: center !important; 
+    } */
+  .full-cell-image,
+  .one-by-one-image,
+  .dual-ic-image {
+    height: 150px !important;
+    width: 150px !important;
+  }
+}
+
+.bt-logo {
+  width: 60px;
+}
+.bt-text {
+  font-family: "Lobster", cursive;
+  margin-right: auto;
+  font-size: 50px;
+  padding-left: 5px;
+}
+
+.my-toggler {
+  width: 1.7em;
+  height: 1.7em;
+  color: blue;
+}
+
+.previous,
+.next {
+  width: 50px;
+  height: 50px;
+  color: black;
+}
+.navbar {
+  padding: 2% 10%;
+}
+
+.navbar {
+  background-color: var(--main-color);
+}
+
+.carousel-item-1 {
+  padding: 3% 10% 0;
+  height: 500px;
+  background-color: var(--main-color);
+}
+
+.carousel-item-2 {
+  height: 500px;
+  padding: 3% 10% 0;
+  background-color: var(--main-color);
+}
+.carousel-item-3 {
+  height: 500px;
+  background-color: var(--main-color);
+  padding: 3% 10% 0;
+}
+
+.battery6g {
+  width: 250px;
+  transform: rotate(25deg);
+  padding-top: 3rem;
+  margin-left: 5rem;
+}
+
+.heading-container {
+  margin-top: 15%;
+}
+
+.carousel3-image {
+  width: 250px;
+  padding-top: 3rem;
+  margin-left: 5rem;
+}
+
+.heading-container2,
+.heading-container3 {
+  padding-top: 4rem;
+}
+
+.dual-ic {
+  padding: 3% 10%;
+  /* height: 400px; */
+}
+
+.dual-ic-image {
+  width: 250px;
+  height: 250px;
+}
+
+.full-cell {
+  background-color: var(--main-color);
+  padding: 3% 10%;
+  /* height: 400px; */
+}
+
+.full-cell-image {
+  width: 250px;
+  height: 250px;
+}
+
+.one-by-one {
+  padding: 3% 10%;
+  /* height: 400px; */
+}
+
+.one-by-one-image {
+  width: 250px;
+  height: 250px;
+}
+
+.fixed-button {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 0px;
+  right: 0px;
+  padding: 20px;
+}
+
+footer {
+  height: 200px;
+  background: rgb(161, 205, 249);
+  background: linear-gradient(
+    189deg,
+    rgba(161, 205, 249, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+hr.style9 {
+  border-top: 1px dashed #8c8b8b;
+  border-bottom: 1px dashed #fff;
+}
